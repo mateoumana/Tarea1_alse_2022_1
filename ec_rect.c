@@ -44,12 +44,12 @@ int main(void){
 	printf(" anteriormente, es:\n\n");
 
 	if(b == 0){
-		printf("\t\ty = %fx", m);
+		printf("\t\ty = %.2fx", m);
 	}else if(b < 0){
 		b = -1*b;
-		printf("\t\ty = %fx - %f", m, b);
+		printf("\t\ty = %.2fx - %.1f", m, b);
 	}else{
-		printf("\t\ty = %fx + %f", m, b);
+		printf("\t\ty = %.2fx + %.1f", m, b);
 	}
 
 
